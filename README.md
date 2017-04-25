@@ -1,6 +1,6 @@
 # npmtest-neat-csv
 
-#### test coverage for  [neat-csv (v2.1.0)](https://github.com/sindresorhus/neat-csv#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-neat-csv.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-neat-csv) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-neat-csv.svg)](https://travis-ci.org/npmtest/node-npmtest-neat-csv)
+#### basic test coverage for  [neat-csv (v2.1.0)](https://github.com/sindresorhus/neat-csv#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-neat-csv.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-neat-csv) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-neat-csv.svg)](https://travis-ci.org/npmtest/node-npmtest-neat-csv)
 
 #### Fast CSV parser
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-neat-csv/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-neat-csv/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-neat-csv/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-neat-csv/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-neat-csv/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-neat-csv/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-neat-csv/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-neat-csv/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-neat-csv/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-neat-csv/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-neat-csv/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-neat-csv/build/coverage.html/index.html)
 
@@ -99,7 +99,8 @@
     "version": "2.1.0",
     "xo": {
         "esnext": true
-    }
+    },
+    "bin": {}
 }
 ```
 
